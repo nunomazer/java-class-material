@@ -1,6 +1,8 @@
 # Lista de exercícios simples com classes
 
-1) Implemente uma classe para conversão de temperaturas.
+## Conversão de temperaturas
+
+Implemente uma classe para conversão de temperaturas.
 
 A fórmula de graus Celsius para Fahrenheit é: F <- (9 * C + 160) / 5, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
 
@@ -10,14 +12,18 @@ Utilize o método main da classe principal para testar sua classe de conversões
 
 ---
 
-2) Implemente uma classe de aluno, onde ele recebe 4 notas. Um método para 
+## Média notas de aluno
+
+Implemente uma classe de aluno, onde ele recebe 4 notas. Um método para 
 informar a média, e um método para informar se o aluno passou ou reprovou. 
 
 Média maior ou igual a 7 significa que passou.
 
 ---
 
-3) Implemente uma classe de paciente, os dados são nome, 
+## IMC
+
+Implemente uma classe de paciente, os dados são nome, 
 altura (em metros, por exemplo 1.8 = 1 mt e 80 cm), 
 peso (em kg) e idade. 
 
