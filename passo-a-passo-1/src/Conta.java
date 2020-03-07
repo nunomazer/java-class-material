@@ -3,7 +3,7 @@
  * @author Ademir Mazer Junior
  */
 public class Conta {
-    String nome;
+    String titular;
     int num;
     String agencia;
     double saldo;
@@ -18,6 +18,6 @@ public class Conta {
     }
 
     double calcularRendimento() {
-        return this.saldo = 0.1;
+        return this.saldo * 0.1;
     }
 }
