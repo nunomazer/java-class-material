@@ -7,7 +7,7 @@ public class Conta {
     int num;
     String agencia;
     double saldo;
-    String dataAbertura;
+    Data dataAbertura;
 
     void sacar(double valor) {
         this.saldo -= valor;
@@ -24,6 +24,7 @@ public class Conta {
     String recuperarDadosParaImpressao() {
         String dados = "Titular: " + this.titular;
         dados += "\nAgência: " + this.agencia + "Número: " + this.num;
+        dados += "\nAberta em " + this.dataAbertura.dia + "/" + this.dataAbertura.mes + "/" + this.dataAbertura.ano;
         // imprimir aqui os outros atributos...
         // também pode imprimir this.calculaRendimento()
         return dados;

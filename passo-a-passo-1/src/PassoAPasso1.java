@@ -15,7 +15,13 @@ public class PassoAPasso1 {
         c1.num = 123;
         c1.agencia = "45678-9";
         c1.saldo = 50.0;
-        c1.dataAbertura = "04/06/2015";
+
+        Data abertura = new Data();
+        abertura.dia = 04;
+        abertura.mes = 05;
+        abertura.ano = 2015;
+
+        c1.dataAbertura = abertura;
 
         c1.depositar(100.0);
         System.out.println(c1.recuperarDadosParaImpressao());
@@ -27,7 +33,7 @@ public class PassoAPasso1 {
         System.out.println("saldo atual:" + c1.saldo);
         System.out.println("rendimento mensal:" + c1.calcularRendimento());
 
-        
+
     }
 
 }
