@@ -44,11 +44,17 @@ public class Aluno {
         return true;
     }
 
-    double media() {
-        return ( notas[0]+notas[1]+notas[2]+notas[3] ) / 4.0;
+    public double getMedia() {
+        double media = 0;
+
+        for (double n : this.notas) {
+            media += n;
+        }
+
+        return media / this.notas.length;
     }
 
     String situacao() {
-        return (media() >= 7) ? "Passou" : "Reprovou";
+        return (getMedia() >= 7) ? "Passou" : "Reprovou";
     }
 }

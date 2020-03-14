@@ -57,9 +57,11 @@ public class App {
             readNota(a, i);
         }
 
+        System.out.println("Notas do aluno: ");
         for (double n : a.getNotas()) {
-            System.out.println(n);
+            System.out.print(n + ", ");
         }
+        System.out.println("Com média " + a.getMedia());
 
     }
 }
