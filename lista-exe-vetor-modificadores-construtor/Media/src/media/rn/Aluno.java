@@ -22,7 +22,7 @@ public class Aluno {
      * @param int qtde
      */
     public boolean setQtdeNotas(int qtde) {
-        if (qtde < 1 || qtde > 10) {
+        if (qtde < 1 || qtde > 8) {
             return false;
         }
 
@@ -54,7 +54,7 @@ public class Aluno {
         return media / this.notas.length;
     }
 
-    String situacao() {
+    public String getSituacao() {
         return (getMedia() >= 7) ? "Passou" : "Reprovou";
     }
 }

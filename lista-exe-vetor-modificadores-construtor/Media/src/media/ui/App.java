@@ -35,7 +35,7 @@ public class App {
         double nota;
 
         do {
-            nota = console.readInt("Informe a nota "+ (n+1) +": ");
+            nota = console.readDouble("Informe a nota "+ (n+1) +": ");
 
             res = a.setNota(n, nota);
 
@@ -61,7 +61,7 @@ public class App {
         for (double n : a.getNotas()) {
             System.out.print(n + ", ");
         }
-        System.out.println("Com média " + a.getMedia());
+        System.out.println("Com média " + a.getMedia() + " e status " + a.getSituacao());
 
     }
 }
