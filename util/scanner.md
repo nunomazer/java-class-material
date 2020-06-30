@@ -2,11 +2,12 @@
 
 Para utilizar o Scanner para entradas de dados a partir do console:
 
+```java
 Scanner scanner = new Scanner(System.in);
 int vatInt = scanner.nextInt();
 
 String varString = scanner.nextLine();
-
+```
 
 **Métodos**
 
