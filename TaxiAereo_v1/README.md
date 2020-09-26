@@ -2,7 +2,7 @@
 
 ## v1 - controle simples
 
-Construa uma solução dde controle simples para uma empresa de táxi-aéreo. 
+Construa uma solução de controle simples para uma empresa de táxi-aéreo. 
 
 A empresa deseja controlar as horas reservadas de voo para seus clientes.
 
