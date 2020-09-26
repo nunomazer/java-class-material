@@ -19,6 +19,8 @@ Além dos dados cadastrais, a empresa também deseja controlar, de forma simplif
  sua previsão de vôos, para isso é preciso gerenciar o agendamento dos vôos: 
 cliente, aeronave e piloto, além de data e hora para a partida do vôo. 
 
+Para fins de controle uma aeronave ou piloto somente pode ter um agendamento por data (dia).
+
 Para esta versão inicial simplificada, uma classe que simule o uso do sistema com 
 o carregamento (usando arrays ou coleções) de dados cadastrais e de vôos agendados 
 e na sequência imprimir a saída no console de listagens de cada cadastro em separado: 
