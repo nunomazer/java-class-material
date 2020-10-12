@@ -1,5 +1,9 @@
 # Risco de Saúde por Comorbidades - V1
 
+Exercício que utilizei em Prova de Programação Orientada a Objetos, nível 1
+
+Disponível também o vídeo explicativo da implementação no [Youtube](https://youtu.be/PvS4CtxZqic)
+
 ## v1 - controle simples
 
 ### Classe Paciente
